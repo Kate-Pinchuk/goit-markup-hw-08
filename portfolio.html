@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/portfolio.min.css">
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header class="page-header">
+      <div class="container flexbox">
+        <nav class="navigation">
+          <a class="logo" href="./index.html"><span>Web</span> Studio</a>
+          <ul class="list menu-list">
+            <li class="menu-item">
+              <a class="link" href="./index.html">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a class="link current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu-item"><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- Контакты -->
+        <ul class="list menu-list">
+          <li class="contacts-link">
+            <a class="link" href="mailto:info@devstudio.com">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./img/icons/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contacts-link">
+            <a class="link" href="tel:380961111111">
+              <svg class="contacts-icon" width="10" height="16">
+                <use href="./img/icons/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="portfolio flex-container">
+      <!-- Навигация -->
+      <div class="container nav-portfolio">
+        <ul class="list flexbox portfolio-menu">
+          <li>
+            <button class="btn-secondary" type="button">Все</button>
+          </li>
+          <li>
+            <button class="btn-secondary" type="button">Веб-сайты</button>
+          </li>
+
+          <li>
+            <button class="btn-secondary" type="button">Приложения</button>
+          </li>
+
+          <li><button class="btn-secondary" type="button">Дизайн</button></li>
+          <li>
+            <button class="btn-secondary" type="button">Маркетинг</button>
+          </li>
+        </ul>
+      </div>
+      <!-- Проекты -->
+      <section>
+        <div class="container">
+          <ul class="list flex-container">
+            <li class="flex-list">
+              <a class="link link-wrapper" href="">
+                <div class="img-box">
+                <img
+                  src="./img/tekhokriak.jpg"
+                  alt="Фото команды на экране ноутбука"
+                  width="370"
+                  height="294"
+                />
+                <div class="box-hover">
+                <p>
+                  Технокряк это современная площадка распространения
+                  коронавируса. Компании используют эту платформу для цифрового
+                  шпионажа и атак на защищённые сервера конкурентов
+                </p>
+                </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="title">Технокряк</h3>
+                  <p>Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="flex-list">
+              <a class="link link-wrapper" href="">
+                <div class="img-box">
+                <img
+                  src="./img/poster-new-orlean.jpg"
+                  alt="Два парня с баскетбольным мячом"
+                  width="370"
+                  height="294"
+                />
+                 <div class="box-hover">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  voluptatum reiciendis id ratione, cupiditate est. Dolorem
+                  dolores doloremque ullam. Sint ipsa quasi iste blanditiis?
+                  Deleniti ipsa consequatur voluptas quis blanditiis!
+                </p>
+                 </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="title">Постер New Orlean vs Golden Star</h3>
+                  <p>Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="flex-list">
+              <a class="link link-wrapper" href="">
+                <div class="img-box">
+                <img
+                  src="./img/seafood.jpg"
+                  alt="Банер ресторана морепродуктов"
+                  width="370"
+                  height="294"
+                />
+                 <div class="box-hover">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  voluptatum reiciendis id ratione, cupiditate est. Dolorem
+                  dolores doloremque ullam. Sint ipsa quasi iste blanditiis?
+                  Deleniti ipsa consequatur voluptas quis blanditiis!
+                </p>
+                 </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="title">Ресторан Seafood</h3>
+                  <p>Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="flex-list">
+              <a class="link link-wrapper" href="">
+                <div class="img-box">
+                <img
+                  src="./img/project-prime.jpg"
+                  alt="Наушники"
+                  width="370"
+                  height="294"
+                />
+                 <div class="box-hover">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  voluptatum reiciendis id ratione, cupiditate est. Dolorem
+                  dolores doloremque ullam. Sint ipsa quasi iste blanditiis?
+                  Deleniti ipsa consequatur voluptas quis blanditiis!
+                </p>
+                 </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="title">Проект Prime</h3>
+                  <p>Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="flex-list">
+              <a class="link link-wrapper" href="">
+                <div class="img-box">
+                <img
+                  src="./img/project-boxes.jpg"
+                  alt="2 картонные коробки 1 белая и 1 коричневая"
+                  width="370"
+                  height="294"
+                />
+                 <div class="box-hover">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  voluptatum reiciendis id ratione, cupiditate est. Dolorem
+                  dolores doloremque ullam. Sint ipsa quasi iste blanditiis?
+                  Deleniti ipsa consequatur voluptas quis blanditiis!
+                </p>
+                 </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="title">Проект Boxes</h3>
+                  <p>Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="flex-list">
+              <a class="link link-wrapper" href="">
+                <div class="img-box">
+                <img
+                  src="./img/inspiration.jpg"
+                  alt="Монитор с дизайном"
+                  width="370"
+                  height="294"
+                />
+                 <div class="box-hover">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  voluptatum reiciendis id ratione, cupiditate est. Dolorem
+                  dolores doloremque ullam. Sint ipsa quasi iste blanditiis?
+                  Deleniti ipsa consequatur voluptas quis blanditiis!
+                </p>
+                 </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="title">Inspiration has no Borders</h3>
+                  <p>Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="flex-list">
+              <a class="link link-wrapper" href="">
+                <div class="img-box">
+                <img
+                  src="./img/limited-edition.jpg"
+                  alt="Развернутый журнал"
+                  width="370"
+                  height="294"
+                />
+                 <div class="box-hover">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  voluptatum reiciendis id ratione, cupiditate est. Dolorem
+                  dolores doloremque ullam. Sint ipsa quasi iste blanditiis?
+                  Deleniti ipsa consequatur voluptas quis blanditiis!
+                </p>
+                 </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="title">Издание Limited Edition</h3>
+                  <p>Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="flex-list">
+              <a class="link link-wrapper" href=""
+                >
+                <div class="img-box">
+                <img
+                  src="./img/project-lab.jpg"
+                  alt="Бирка с надписью"
+                  width="370"
+                  height="294"
+                />
+                 <div class="box-hover">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  voluptatum reiciendis id ratione, cupiditate est. Dolorem
+                  dolores doloremque ullam. Sint ipsa quasi iste blanditiis?
+                  Deleniti ipsa consequatur voluptas quis blanditiis!
+                </p>
+                 </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="title">Проект LAB</h3>
+                  <p>Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="flex-list">
+              <a class="link link-wrapper" href=""
+                >
+                <div class="img-box">
+                <img
+                  src="./img/growing-business.jpg"
+                  alt="Раскрытый ноутбук на столе"
+                  width="370"
+                  height="294"
+                />
+                 <div class="box-hover">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  voluptatum reiciendis id ratione, cupiditate est. Dolorem
+                  dolores doloremque ullam. Sint ipsa quasi iste blanditiis?
+                  Deleniti ipsa consequatur voluptas quis blanditiis!
+                </p>
+                 </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="title">Growing Business</h3>
+                  <p>Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Футер -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-address">
+            <a class="logo" href="./index.html"><span>Web</span> Studio</a>
+            <br />
+            <span class="text text-white">
+              г. Киев, пр-т Леси Украинки, 26
+            </span>
+            <br />
+            <span>
+              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </span>
+            <br />
+            <span>
+             <a class="link" href="tel:380961111111">+38 096 111 11 11</a>
+            </span>
+          </div>
+    
+    <div class="contact-us">
+      <b class="contact-us-item">присоединяйтесь</b>
+      <ul class="list menu-list">
+        <li class="social-icons-list">
+          <a href="https://www.instagram.com/" class="social-icons-footer" target="_blank" rel="noopener noreferrer"
+            aria-label="Cсылка на Инстаграм">
+            <svg class="social-icon" width="20" height="20">
+              <use href="./img/icons/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-icons-list">
+          <a href="https://twitter.com/" class="social-icons-footer" target="_blank" rel="noopener noreferrer"
+            aria-label="Ссылка на Twitter">
+            <svg class="social-icon" width="20" height="20">
+              <use href="./img/icons/sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-icons-list">
+          <a href="https://facebook.com/" class="social-icons-footer" target="_blank" rel="noopener noreferrer"
+            aria-label="Ссылка на Facebook">
+            <svg class="social-icon" width="20" height="20">
+              <use href="./img/icons/sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li class="social-icons-list">
+        <li>
+          <a href="https://linkedin.com/" class="social-icons-footer" target="_blank" rel="noopener noreferrer"
+            aria-label="Ссылка на LinkedIn">
+            <svg class="social-icon" width="20" height="20">
+              <use href="./img/icons/sprite.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="subscription">
+      <b class="contact-us-item">Подпишитесь на рассылку</b>
+      <form class="subscription-form">
+        <input class="footer-email" type="email" name="mail" id="footer-mail" placeholder="E-mail">
+        <button class="btn-email" type="submit">
+          <span class="btn-text">Подписаться</span>
+          <svg class="icon-send" width="24" height="24">
+            <use href="./img/icons/sprite.svg#icon-send"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    </div>
+    </footer>
+  </body>
+</html>
