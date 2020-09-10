@@ -1,0 +1,19 @@
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 14px;
+    height: 10px;
+  }
+}
+
+.icon-phone {
+  width: 12px;
+  height: 15px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 10px;
+    height: 14px;
+  }
+}

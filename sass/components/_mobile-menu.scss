@@ -1,0 +1,83 @@
+@media screen and (max-width: 767px) {
+  .menu-btn {
+    display: flex;
+
+    width: 40px;
+    height: 40px;
+
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    // margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+
+    & .open-icon {
+      display: block;
+    }
+
+    & .close-icon {
+      display: none;
+    }
+  }
+
+  .menu-icon {
+    fill: currentColor;
+  }
+
+  .menu-btn.is-open .open-icon {
+    display: none;
+  }
+
+  .menu-btn.is-open .close-icon {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+}
+// menu-container
+@media screen and (max-width: 767px) {
+  .menu-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 60px 10px;
+    text-align: center;
+    background-color: $primary-white-color;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+      0px 1px 3px rgba(0, 0, 0, 0.16);
+
+    visibility: hidden;
+    z-index: -1;
+    pointer-events: none;
+    transform: translateY(-100%);
+    transition: transform 200ms linear, visibility 300ms linear;
+
+    &.is-open {
+      transform: translateY(0);
+      visibility: visible;
+      pointer-events: initial;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
